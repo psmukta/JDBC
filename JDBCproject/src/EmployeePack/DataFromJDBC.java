@@ -10,8 +10,8 @@ import java.util.Map;
 
 public class DataFromJDBC {
 
-	String url = "jdbc:mysql://localhost:3306/mukta";
-	String driver = "com.mysql.jdbc.Driver";
+	String url = "jdbc:mysql://localhost:3306/mukta";//jdbc.sqlserver://DESKTOP-3LAS9CR\\SQLEXPRESS
+	String driver = "com.mysql.jdbc.Driver";//com.microsoft.sqlserver.jdbc.SQLServerDriver
 	String mssqlstmt = "select username, password from userdata";
 	String username = "root";
 	String password = "root";
